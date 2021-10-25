@@ -1,0 +1,31 @@
+.lazy-load-image-background {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.lazy-load-image-background.lazy-load-image-loaded {
+    display: inline !important;
+    z-index: 3;
+}
+
+.lazy-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #f5fffa;
+
+    &.bg-2 {
+        background: #b0c4de;
+    }
+
+    &.bg-3 {
+        background: #add8e6;
+    }
+}

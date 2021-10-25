@@ -1,0 +1,166 @@
+
+.header.header-11 {
+	background: #333;
+
+	.wishlist-link {
+		margin-left: 4.5rem;
+	}
+
+	.header-search form {
+		margin-bottom: 5px;
+	}
+
+	.logo {
+		display: flex;
+		align-items: center;
+	}
+
+	.header-middle {
+		border-bottom: none;
+		.menu > li > a {
+			font-weight: 400;
+			letter-spacing: -.01em;
+			padding-right: 2rem;
+		}
+	}
+	.wishlist-link .wishlist-count,
+	.cart-dropdown .cart-count {
+		min-width: 1.7rem;
+		height: 1.7rem;
+		margin-bottom: 1.5rem;
+		margin-left: -1.2rem;
+	}
+	.wishlist-link {
+		font-size: 2.8rem;
+	}
+		
+	.header-search-extended {
+		margin: 0;
+		max-width: 230px;
+		.btn.btn-primary {
+			color: #fff;
+			font-size: 2.2rem;
+			background-color: transparent;
+			max-width: 40px;
+			padding-top: .5rem;
+
+			&:hover,
+			&:focus,
+			&:active {
+				background-color: transparent;
+				color: $primary-color;
+			}
+		}
+		.form-control {
+			padding-left: .7rem;
+			padding-bottom: .5rem;
+			background-color: transparent;
+			font-size: 1.3rem;
+
+			&::placeholder {
+				color: #fff;
+			}
+		}
+	}
+	.header-search-wrapper {
+		background-color: transparent;
+		border: none;
+		border-bottom: .1rem solid #fff;
+		border-radius: 0;
+		min-width: 230px;
+	}
+	.mobile-menu-toggler {
+		margin-top: 2.5rem;
+		margin-bottom: 2.5rem;
+	}
+}
+
+.footer .icon-box-side .icon-box-icon {
+    min-width: 7rem;
+    color: #c96;
+    font-size: 4rem;
+}
+
+
+.footer {
+	.icon-boxes-container {
+		padding-top: 0;
+		padding-bottom: 0;
+		background-color: transparent;
+
+		.container, .container-fluid {
+			position: relative;
+			padding-top: 2.3rem;
+			padding-bottom: 2.3rem;
+
+			&:before {
+				content:'';
+				display: block;
+				height: 1px;
+				position: absolute;
+				bottom:0;
+				left: 10px;
+				right: 10px;
+				background-color: #ebebeb;
+			}
+		}
+	}
+
+	.icon-box {
+		font-size: 1.4rem;
+	}
+	.icon-box-side {
+		margin-left: -2rem;
+	}
+
+	.icon-box-side .icon-box-icon {
+		min-width: 7rem;
+		color: $primary-color;
+		font-size: 4rem;
+	}
+
+	.icon-box-side .icon-box-title {
+		font-size: 1.4rem;
+		margin-bottom: .1rem;
+		font-weight: 600;
+	}
+
+	.icon-box-content {
+		padding-top: .5rem;
+		p {
+			letter-spacing: -.01em;
+		}
+	}
+
+	&.footer-dark {
+		.icon-box-title {
+			color: #fff;
+		}
+
+		.icon-boxes-container {
+			.container, .container-fluid {
+				&:before {
+					background-color: #525455;
+				}
+			}
+		}
+	}
+	.footer-middle .container >.row {
+		>div:not(:first-child) {
+			padding-left: 6rem;
+		}
+	}
+	.footer-bottom .container,
+	.footer-bottom .container-fluid {
+		padding-bottom: 2.1rem;
+	}
+}
+
+@include mq('lg', 'max') {
+	.header-middle .header-center {
+		display: block;
+	}
+	.footer-middle .container >.row > div {
+		padding-left: 3rem !important;
+	}
+}

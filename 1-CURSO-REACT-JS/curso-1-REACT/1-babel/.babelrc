@@ -1,0 +1,6 @@
+{ 
+    "presets": ["@babel/preset-env", "@babel/preset-react"]
+}
+
+// "@babel/preset-react" traducir codigo en formato JSX a JS
+// "@babel/preset-env" traduce funcionalidades nuevas de JS

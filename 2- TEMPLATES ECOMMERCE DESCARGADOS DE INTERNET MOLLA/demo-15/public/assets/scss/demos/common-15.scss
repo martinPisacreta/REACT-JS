@@ -1,0 +1,149 @@
+.footer {
+	.widget-about {
+		p {
+			max-width: 540px;
+		}
+	}
+	.widget-about-info {
+		a {
+			color: $primary-color;
+		}
+	}
+	.widget-newsletter form {
+		padding-top: 2.3rem;
+		.form-control::placeholder {
+			color: #ccc;
+		}
+    }
+    
+    .footer-bottom .container,
+    .footer-bottom .container-fluid {
+        &::before {
+            left: 1rem;
+            right: 1rem;
+        }
+        padding-bottom: 2.1rem;
+    }
+}
+
+.intro-slider-container,
+.intro-slider .slide-image {
+	&:before {
+		@include aspect-ratio(1180, 500);
+	}
+	
+	&:before {
+		@include mq('xl', 'max') {
+			padding-top:40rem;
+		}
+	}
+
+	img {
+		min-height: 40rem;
+		object-fit: cover;
+	}
+}
+
+.footer-bottom .container:before, .footer-bottom .container-fluid:before {
+	width: 92%;
+	margin: 0 auto;
+}
+
+.trending-products {
+	padding: 4.5rem 5rem 5rem;
+}
+
+.home-page .cta-wrapper {
+	max-width: 580px;
+	
+	.cta-text {
+		max-width: 360px;
+	}
+}
+
+.home-page .cta-wrapper.cta-text {
+	max-width: 33rem;
+}
+
+@include mq( "xl" ) {
+	.owl-simple.brands-carousel {
+		margin-left: 6rem;
+		margin-right: 6rem;
+		width: calc( 100% - 12rem);
+	}
+}
+
+@include mq('xxl') {
+	.footer-bottom {
+		.container-fluid {
+			&:before {
+				left: 62px;
+				right: 62px;
+			}
+		}
+	}
+}
+
+.home-page, .header, .footer {
+	.container {
+		max-width: 1800px;
+		width: 100%;
+	}
+} 
+
+.header-search-extended {
+	.btn.btn-primary {
+		color: #fff;
+		font-size: 2.2rem;
+		background-color: transparent;
+
+		&:hover,
+		&:focus,
+		&:active {
+			background-color: transparent;
+			color: $primary-color;
+		}
+	}
+	.form-control {
+		padding-bottom: .5rem;
+	}
+}
+
+.header-5 {
+	.header-search .header-search-wrapper {
+		min-width: 270px;
+	}
+
+	.menu > li > a::before {
+		bottom: .8rem;
+	}
+
+	.banner img {
+		min-height: 1px;
+	}
+
+	.menu li:hover>.megamenu {
+		margin-top: 1px;
+	}
+}
+
+
+@include mq('xxl') {
+	.header-5 .container-fluid {
+		padding-left: 6.2rem;
+		padding-right: 6.2rem;
+	}
+}
+
+@include mq('xl') {
+	.container-fluid {
+		padding-left: 62px;
+		padding-right: 62px;
+	}
+}
+
+@include mq('lg', 'max') {
+	.header-5.header {
+		padding: 15px 0;
+	}
+}

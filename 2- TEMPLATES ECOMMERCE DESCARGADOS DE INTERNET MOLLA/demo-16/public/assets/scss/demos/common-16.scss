@@ -1,0 +1,141 @@
+.header.header-6 {
+	.header-middle {
+		min-height: 86px;
+		.container::after {
+			content: '';
+			position: absolute;
+			left: 1rem;
+			right: 1rem;
+			bottom: 0;
+			height: .1rem;
+			background-color: #ebebeb;
+		}
+	}
+	.header-bottom {
+		background-color: #fff;
+		.menu > li {
+			> a {
+				color: #222;
+				letter-spacing: .01em;
+				padding-top: 1.5rem;
+				padding-bottom: 1.5rem;
+
+				&::before {
+					bottom: 0;
+					height: .2rem;
+				}
+			}
+
+			&:hover > a,
+			&:focus > a,
+			&.active > a {
+				color: $primary-color;
+			}
+			+ li {
+				margin-left: .8rem;
+			}
+		}
+		.header-right {
+			p, i {
+				color: #222;
+				letter-spacing: .01em;
+			}
+			padding-right: 1rem;
+		}
+	}
+}
+
+
+.header-6 {
+	.header-middle,
+	.header-menu {
+		font-size: 1.4rem;
+	}
+
+	.search-toggle:not(:hover):not(.active),
+	.wishlist-link:not(:hover):not(:focus),
+	.cart-dropdown:not(.show):not(:hover) .dropdown-toggle, 
+	.compare-dropdown:not(.show):not(:hover) .dropdown-toggle {
+		color: #333;
+	}
+}
+
+@include mq('sm') {
+	.header-6 .header-middle .container {
+		min-height: 86px;
+	}
+}
+
+
+@media screen and (max-width: 420px) {
+	.header-6 .wishlist-link {
+		display: none;
+	}
+}
+
+.footer {
+	background-color: #222;
+	font-size: 1.3rem;
+	font-weight: 400;
+	letter-spacing: 0;
+	.social-icon {
+		border: none;
+		&:hover,
+		&:focus {
+			color: #222;
+			background-color: #fff;
+		}
+	}
+	.widget {
+		margin-bottom: 2rem;
+	}
+	.widget-about {
+		p {
+			max-width: 250px;
+			font-size: 1.3rem;
+			font-weight: 400;
+			line-height: 2em;
+			margin-bottom: 1.8rem;
+		}
+	}
+	.widget-about-info {
+		a {
+			color: $primary-color;
+		}
+	}
+	.widget-title {
+		text-transform: capitalize;
+		letter-spacing: -.025em;
+		color: #fff;
+		margin-bottom: 2.1rem;
+	}
+	.widget-list li:not(:last-child) {
+	    margin-bottom: .6rem;
+	}
+}
+
+.footer-payments {
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 3rem;
+}
+
+.footer-copyright {
+	margin-top: 2.2rem;
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+
+.footer-bottom .container {
+	
+	&::before {
+		background-color: #444;
+	}
+
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 5rem;
+	padding-bottom: 3.2rem;
+}
+

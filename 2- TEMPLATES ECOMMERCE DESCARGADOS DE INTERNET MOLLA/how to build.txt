@@ -1,0 +1,5 @@
+1. Add homepage url to package.json.(already setted)
+2. Change current demo's number in src/index.js.(already setted)
+2. Run npm run build
+3. Update base href with "/react/molla/demo-number/" in index.html
+4. Replace ("assets/images/elements.png") with ("../images/elements.png") in style.min.css which is located in the build folder.

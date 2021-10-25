@@ -1,0 +1,80 @@
+
+.header .mobile-menu-toggler {
+	padding-top: .5rem;
+}
+
+
+.container {
+	width: 1420px;
+	max-width: 100%;
+}
+
+@include mq('xxl') {
+
+	.header-12 {
+		.header-search-extended {
+			margin-right: 6.5rem;
+		}
+		
+	}
+
+	.header-search .search-wrapper-wide {
+		width: 832px;
+	}
+
+	.header-search-extended {
+		max-width: 832px;
+	}
+}
+
+.footer-middle {
+	border-top: none;
+
+	.container {
+		position: relative;
+		padding-top: 4.2rem;
+
+		&:before {
+			content: '';
+			display: block;
+			height: 1px;
+			position: absolute;
+			top: 0;
+			left: 15px;
+			right: 15px;
+			background-color: #ebebeb;
+		}
+	}
+}
+
+.footer-2 .footer-middle {
+	padding-top: 0;
+}
+
+.footer {
+	.widget-title {
+		font-weight: 600;
+	}
+
+	.widget-about {
+		p {
+			max-width: 500px;
+		}
+	}
+
+	.widget-about-info {
+		a {
+			color: $primary-color;
+		}
+	}
+}
+
+.mobile-menu-wrapper .nav.nav-pills-mobile .nav-link {
+    &::before {
+        content: none;
+    }
+}
+
+.mobile-menu-wrapper .nav-item.show .nav-link {
+    color: $primary-color !important;
+}

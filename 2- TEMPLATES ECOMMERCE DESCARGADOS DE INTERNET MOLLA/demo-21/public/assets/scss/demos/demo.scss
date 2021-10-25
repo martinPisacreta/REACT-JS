@@ -1,0 +1,92 @@
+@import '../config/variables';
+@import '../mixins/breakpoints';
+
+// demo-21
+.container {
+	width: 1420px;
+    max-width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.notification {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	padding: 1.3rem 0;
+
+	.notify-content {
+		h3 {
+			font-size: 1.3rem;
+			font-weight: 400;
+			letter-spacing: .05em;
+			color: #fff;
+			margin-bottom: 0;
+		}
+	}
+	.notify-action {
+		position: absolute;
+		right: 19%;
+		top: 17%;
+		a {
+			font-size: 1.6rem;
+			letter-spacing: -.01em;
+			color: #fff;
+			line-height: 0;
+		}
+	}
+}
+
+footer.footer {
+	hr {
+		margin-top: 5.5rem;
+	}
+	.widget-about-info {
+		span {
+		    font-size: 1.3rem;
+		    letter-spacing: 0;
+		}
+		.phoneNum {
+			padding-right: 0;
+		}
+		.payment {
+			padding-left: 2.5rem;
+		}
+	}
+	.widget-about p {
+    	max-width: 50rem;
+	}
+	.widget-title {
+		font-weight: 600;
+	}
+	a:hover, a:focus {
+	    color: $primary-color;
+	}
+}
+
+.mmenu-active .mobile-menu-container {
+    visibility: visible;
+}
+
+.footer-bottom .container-fluid::before {
+    background-color: #ebebeb;
+}
+
+.choose-style {
+	background-image: url(/assets/images/home/banners/background.jpg);
+}
+
+@include mq('xl') {
+	.col-2xl-5col {
+		flex: 0 0 40%;
+		max-width: 40%;
+	}
+}
+
+@include mq('xl', 'max') {
+	.choose-style .banner-intro {
+		background-image: url(/assets/images/home/banners/inspirationback.jpg);
+	}
+}

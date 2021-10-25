@@ -1,0 +1,290 @@
+{
+    "team_members": [
+        {
+            "img": "assets/images/team/about-2/member-1.jpg",
+            "name": "Samanta Grey",
+            "title": "Founder & CEO"
+        },
+        {
+            "img": "assets/images/team/about-2/member-2.jpg",
+            "name": "Bruce Sutton",
+            "title": "Sales & Marketing Manager"
+        },
+        {
+            "img": "assets/images/team/about-2/member-3.jpg",
+            "name": "Janet Joy",
+            "title": "Product Manager"
+        },
+        {
+            "img": "assets/images/team/about-2/member-4.jpg",
+            "name": "Mark Pocket",
+            "title": "Product Manager"
+        },
+        {
+            "img": "assets/images/team/about-2/member-5.jpg",
+            "name": "Damion Blue",
+            "title": "Sales & Marketing Manager"
+        },
+        {
+            "img": "assets/images/team/about-2/member-6.jpg",
+            "name": "Lenard Smith",
+            "title": "Product Manager"
+        },
+        {
+            "img": "assets/images/team/about-2/member-7.jpg",
+            "name": "Rachel Green",
+            "title": "Product Manager"
+        },
+        {
+            "img": "assets/images/team/about-2/member-8.jpg",
+            "name": "David Doe",
+            "title": "Product Manager"
+        }
+    ],
+    "brands": {
+        "default": [
+            {
+                "name": "brand",
+                "image": "assets/images/brands/1.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/2.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/3.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/4.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/5.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/6.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/7.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/8.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/9.png"
+            }
+        ]
+    },
+    "categories": {
+        "wears": [
+            {
+                "id": 1,
+                "name": "Beds"
+            },
+            {
+                "id": 2,
+                "name": "Coffee & Tables"
+            },
+            {
+                "id": 3,
+                "name": "Decor"
+            },
+            {
+                "id": 4,
+                "name": "Electronics"
+            },
+            {
+                "id": 5,
+                "name": "Furniture"
+            },
+            {
+                "id": 6,
+                "name": "Kitchen Cabinets"
+            },
+            {
+                "id": 7,
+                "name": "Lighting"
+            },
+            {
+                "id": 6,
+                "name": "Storage"
+            }
+        ]
+    },
+    "elementsUrl": [
+        {
+            "url": "/elements/accordions",
+            "name": "accordions",
+            "class": "img-accordions"
+        },
+        {
+            "url": "/elements/banners",
+            "name": "banners",
+            "class": "img-banners"
+        },
+        {
+            "url": "/elements/blog-posts",
+            "name": "blog posts",
+            "class": "img-blog-posts"
+        },
+        {
+            "url": "/elements/buttons",
+            "name": "buttons",
+            "class": "img-buttons"
+        },
+        {
+            "url": "/elements/cta",
+            "name": "call to action",
+            "class": "img-cta"
+        },
+        {
+            "url": "/elements/icon-boxes",
+            "name": "icon boxes",
+            "class": "img-icon-boxes"
+        },
+        {
+            "url": "/elements/portfolios",
+            "name": "portfolio",
+            "class": "img-portfolio"
+        },
+        {
+            "url": "/elements/categories",
+            "name": "product catigories",
+            "class": "img-product-categories"
+        },
+        {
+            "url": "/elements/products",
+            "name": "products",
+            "class": "img-products"
+        },
+        {
+            "url": "/elements/tabs",
+            "name": "tabs",
+            "class": "img-tabs"
+        },
+        {
+            "url": "/elements/testimonials",
+            "name": "testimonials",
+            "class": "img-testimonials"
+        },
+        {
+            "url": "/elements/titles",
+            "name": "titles",
+            "class": "img-titles"
+        },
+        {
+            "url": "/elements/typography",
+            "name": "typography",
+            "class": "img-typography"
+        },
+        {
+            "url": "/elements/video-banners",
+            "name": "video",
+            "class": "img-video"
+        }
+    ],
+    "services": [
+        {
+            "id": 1,
+            "icon": "icon-rocket",
+            "title": "Payment & Delivery",
+            "subtitle": "Free shipping for orders over $50"
+        },
+        {
+            "id": 2,
+            "icon": "icon-rotate-left",
+            "title": "Return & Refund",
+            "subtitle": "Free 100% money back guarantee"
+        },
+        {
+            "id": 3,
+            "icon": "icon-life-ring",
+            "title": "Quality Support",
+            "subtitle": "Alway online feedback 24/7"
+        }
+    ],
+    "innerOverlayPaths": [
+        "shop/sidebar",
+        "product/default",
+        "product/centered",
+        "product/extended",
+        "product/gallery",
+        "product/sticky",
+        "product/sidebar",
+        "product/fullwidth",
+        "product/masonry"
+    ],
+    "introBanners": [
+        {
+            "image": "/assets/images/home/sliders/slide-1.jpg",
+            "subtitle": "Limited Time Only *",
+            "title": "Summer<br /> <strong>Sale</strong>",
+            "aSubtitle": "up to 50% off",
+            "subClass": "position-right",
+            "adClass": "text-left",
+            "subImage": "/assets/images/home/sliders/img-1.png"
+        },
+        {
+            "image": "/assets/images/home/sliders/slide-2.jpg",
+            "subtitle": "Premium Quality",
+            "title": "Coats<span class='highlight'> &</span><br />Jackets",
+            "subClass": "position-left",
+            "adClass": "text-right",
+            "subImage": "/assets/images/home/sliders/img-2.png"
+        }
+    ],
+    "banner": [
+        {
+            "img": "assets/images/home/banners/banner-1.jpg",
+            "subtitle": "Final Reduction",
+            "title": "<strong>Sandals &<br />Flip Flops</strong><br />Up to 60% Off",
+            "width": "376",
+            "height": "470"
+        },
+        {
+            "img": "assets/images/home/banners/banner-2.jpg",
+            "subtitle": "Limited Time Only",
+            "title": "<strong>Trainers &<br />Sportwear</strong><br />40 -70% off",
+            "width": "376",
+            "height": "470"
+        },
+        {
+            "img": "assets/images/home/banners/banner-3.jpg",
+            "subtitle": "This Week We Love...",
+            "title": "<strong>Women's<br />Accessories</strong><br />From $6.99",
+            "width": "376",
+            "height": "470",
+            "adClass": "col-sm-6 col-lg-4 d-none d-lg-block"
+        },
+        {
+            "img": "assets/images/home/banners/banner-5.jpg",
+            "subtitle": "New Arrivals",
+            "title": "Women's",
+            "width": "575",
+            "height": "300",
+            "adClass": "col-md-6"
+        },
+        {
+            "img": "assets/images/home/banners/banner-6.jpg",
+            "subtitle": "New Arrivals",
+            "title": "Men's",
+            "width": "575",
+            "height": "300",
+            "adClass": "col-md-6"
+        }
+    ],
+    "category": [
+        "All",
+        "Bags",
+        "Clothing",
+        "Men",
+        "Shoes",
+        "Women"
+    ]
+}

@@ -1,0 +1,75 @@
+@import '../mixins/clearfix';
+@import '../mixins/breakpoints';
+@import '../mixins/lazy';
+
+@import '../config/variables';
+
+.trendy-collection {
+    .owl-simple .owl-nav.disabled + .owl-dots {
+        position: relative;
+        margin: -6rem auto 4rem;
+        width: fit-content;
+        z-index: 10;
+    }
+}
+
+.intro-section {
+    padding-top: 5rem;
+}
+
+.product-media {
+    a {
+        display: block;
+
+        span {
+            display: block !important;
+        }
+    }
+}
+
+@include mq( "xl", "max" ) {
+    .intro-section {
+        padding-top: 1rem;
+    }
+}
+
+@include mq( "lg", "max" ) {
+    .slider-container-1:before, .intro-slider-1 .slide-image:before {
+        min-height: 40rem;
+    }
+
+    .intro-slider-container {
+        picture {
+            height: 100%;
+        }
+
+        img {
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+} 
+
+@include mq( "425px", "max" ) {
+    .btn-product:before {
+        margin-right: .5rem;
+    }
+
+    .product.product-11 .btn-product span {
+        font-size: 1.2rem;
+    }
+}
+
+@include mq( "sm", "max" ) {
+    .categories {
+        .banner img {
+            max-height: 30rem;
+        }
+    }
+
+    .product.product-11 {
+        .product-price, .product-title {
+            font-size: 1.4rem;
+        }
+    }
+}

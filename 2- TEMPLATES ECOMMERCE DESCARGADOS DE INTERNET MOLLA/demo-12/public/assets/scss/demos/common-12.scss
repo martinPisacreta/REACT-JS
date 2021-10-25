@@ -1,0 +1,12 @@
+@include mq('lg') {
+    .header.header-9 .container-fluid {
+        .header-right {
+            width: 90%;
+        };
+    
+        .main-nav {
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+}

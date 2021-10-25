@@ -1,0 +1,63 @@
+.container {
+  width: 1420px;
+  max-width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.notification {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 1.3rem 0; }
+  .notification .notify-content h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: .05em;
+    color: #fff;
+    margin-bottom: 0; }
+  .notification .notify-action {
+    position: absolute;
+    right: 19%;
+    top: 17%; }
+    .notification .notify-action a {
+      font-size: 1.6rem;
+      letter-spacing: -.01em;
+      color: #fff;
+      line-height: 0; }
+
+footer.footer hr {
+  margin-top: 5.5rem; }
+footer.footer .widget-about-info span {
+  font-size: 1.3rem;
+  letter-spacing: 0; }
+footer.footer .widget-about-info .phoneNum {
+  padding-right: 0; }
+footer.footer .widget-about-info .payment {
+  padding-left: 2.5rem; }
+footer.footer .widget-about p {
+  max-width: 50rem; }
+footer.footer .widget-title {
+  font-weight: 600; }
+footer.footer a:hover, footer.footer a:focus {
+  color: #66f; }
+
+.mmenu-active .mobile-menu-container {
+  visibility: visible; }
+
+.footer-bottom .container-fluid::before {
+  background-color: #ebebeb; }
+
+.choose-style {
+  background-image: url(/assets/images/home/banners/background.jpg); }
+
+@media screen and (min-width: 1200px) {
+  .col-2xl-5col {
+    flex: 0 0 40%;
+    max-width: 40%; } }
+@media screen and (max-width: 1199px) {
+  .choose-style .banner-intro {
+    background-image: url(/assets/images/home/banners/inspirationback.jpg); } }
+
+/*# sourceMappingURL=demo.css.map */
