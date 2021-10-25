@@ -1,0 +1,280 @@
+{
+    "team_members": [
+        {
+            "img": "assets/images/team/about-2/member-1.jpg",
+            "name": "Samanta Grey",
+            "title": "Founder & CEO"
+        },
+        {
+            "img": "assets/images/team/about-2/member-2.jpg",
+            "name": "Bruce Sutton",
+            "title": "Sales & Marketing Manager"
+        },
+        {
+            "img": "assets/images/team/about-2/member-3.jpg",
+            "name": "Janet Joy",
+            "title": "Product Manager"
+        },
+        {
+            "img": "assets/images/team/about-2/member-4.jpg",
+            "name": "Mark Pocket",
+            "title": "Product Manager"
+        },
+        {
+            "img": "assets/images/team/about-2/member-5.jpg",
+            "name": "Damion Blue",
+            "title": "Sales & Marketing Manager"
+        },
+        {
+            "img": "assets/images/team/about-2/member-6.jpg",
+            "name": "Lenard Smith",
+            "title": "Product Manager"
+        },
+        {
+            "img": "assets/images/team/about-2/member-7.jpg",
+            "name": "Rachel Green",
+            "title": "Product Manager"
+        },
+        {
+            "img": "assets/images/team/about-2/member-8.jpg",
+            "name": "David Doe",
+            "title": "Product Manager"
+        }
+    ],
+    "brands": {
+        "default": [
+            {
+                "name": "brand",
+                "image": "assets/images/brands/1.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/2.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/3.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/4.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/5.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/6.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/7.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/8.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/9.png"
+            }
+        ]
+    },
+    "categories": {
+        "wears": [
+            {
+                "id": 1,
+                "name": "Beds"
+            },
+            {
+                "id": 2,
+                "name": "Coffee & Tables"
+            },
+            {
+                "id": 3,
+                "name": "Decor"
+            },
+            {
+                "id": 4,
+                "name": "Electronics"
+            },
+            {
+                "id": 5,
+                "name": "Furniture"
+            },
+            {
+                "id": 6,
+                "name": "Kitchen Cabinets"
+            },
+            {
+                "id": 7,
+                "name": "Lighting"
+            },
+            {
+                "id": 6,
+                "name": "Storage"
+            }
+        ]
+    },
+    "elementsUrl": [
+        {
+            "url": "/elements/accordions",
+            "name": "accordions",
+            "class": "img-accordions"
+        },
+        {
+            "url": "/elements/banners",
+            "name": "banners",
+            "class": "img-banners"
+        },
+        {
+            "url": "/elements/blog-posts",
+            "name": "blog posts",
+            "class": "img-blog-posts"
+        },
+        {
+            "url": "/elements/buttons",
+            "name": "buttons",
+            "class": "img-buttons"
+        },
+        {
+            "url": "/elements/cta",
+            "name": "call to action",
+            "class": "img-cta"
+        },
+        {
+            "url": "/elements/icon-boxes",
+            "name": "icon boxes",
+            "class": "img-icon-boxes"
+        },
+        {
+            "url": "/elements/portfolios",
+            "name": "portfolio",
+            "class": "img-portfolio"
+        },
+        {
+            "url": "/elements/categories",
+            "name": "product catigories",
+            "class": "img-product-categories"
+        },
+        {
+            "url": "/elements/products",
+            "name": "products",
+            "class": "img-products"
+        },
+        {
+            "url": "/elements/tabs",
+            "name": "tabs",
+            "class": "img-tabs"
+        },
+        {
+            "url": "/elements/testimonials",
+            "name": "testimonials",
+            "class": "img-testimonials"
+        },
+        {
+            "url": "/elements/titles",
+            "name": "titles",
+            "class": "img-titles"
+        },
+        {
+            "url": "/elements/typography",
+            "name": "typography",
+            "class": "img-typography"
+        },
+        {
+            "url": "/elements/video-banners",
+            "name": "video",
+            "class": "img-video"
+        }
+    ],
+    "services": [
+        {
+            "id": 1,
+            "icon": "icon-rocket",
+            "title": "Free Shipping",
+            "subtitle": "Orders $50 or more"
+        },
+        {
+            "id": 2,
+            "icon": "icon-rotate-left",
+            "title": "Free Returns",
+            "subtitle": "Within 30 days"
+        },
+        {
+            "id": 3,
+            "icon": "icon-info-circle",
+            "title": "Get 20% Off 1 Item",
+            "subtitle": "When you sign up"
+        },
+        {
+            "id": 4,
+            "icon": "icon-life-ring",
+            "title": "We Support",
+            "subtitle": "24/7 amazing services"
+        }
+    ],
+    "innerOverlayPaths": [
+        "shop/sidebar",
+        "product/default",
+        "product/centered",
+        "product/extended",
+        "product/gallery",
+        "product/sticky",
+        "product/sidebar",
+        "product/fullwidth",
+        "product/masonry"
+    ],
+    "introBanners": [
+        {
+            "image": "/assets/images/home/sliders/slide.jpg",
+            "subtitle": "<h3>End of Season Sale</h3>",
+            "title": "<h4>Save 40% off</h4>",
+            "btnText": "<a href='/shop/sidebar/list'>discover now</a>"
+        }
+    ],
+    "banner": [
+        {
+            "img": "assets/images/home/banners/banner-5.jpg",
+            "title": "<h3>New Arrivals</h3>",
+            "content": "<h4>New</h4><h4>For Women</h4>",
+            "width": "300",
+            "height": "1142",
+            "adClass": "banner-lg"
+        },
+        {
+            "img": "assets/images/home/banners/banner-4.jpg",
+            "title": "<h3>New Arrivals</h3>",
+            "content": "<h4>New</h4><h4>For Men</h4>",
+            "width": "300",
+            "height": "1142",
+            "adClass": "banner-lg"
+        },
+        {
+            "img": "assets/images/home/banners/banner-1.jpg",
+            "title": "<h3>Our New Collection</h3>",
+            "content": "<h4>Urban Spirit<br />Collection 2020</h4>",
+            "text": "<p>It started with a simple idea</p>",
+            "width": "300",
+            "height": "730",
+            "adClass": "banner-lg"
+        },
+        {
+            "img": "assets/images/home/banners/banner-2.jpg",
+            "title": "<h3>Final Days of Sale</h3>",
+            "content": "<h4>Sportswear &amp; Outdoor Wear<br />UP TO 70% OFF</h4>",
+            "width": "300",
+            "height": "390",
+            "adClass": "banner-sm"
+        },
+        {
+            "img": "assets/images/home/banners/banner-3.jpg",
+            "title": "<h3>Summer Clearance</h3>",
+            "content": "<h4>Shoes &amp; Accessories<br />UP TO 30% OFF</h4>",
+            "width": "300",
+            "height": "390",
+            "adClass": "banner-sm"
+        }
+    ]
+}

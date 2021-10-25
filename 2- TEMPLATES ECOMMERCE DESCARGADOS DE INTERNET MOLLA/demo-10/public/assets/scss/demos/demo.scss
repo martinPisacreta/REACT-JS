@@ -1,0 +1,143 @@
+@import '../config/variables';
+@import '../mixins/breakpoints';
+
+@media(-ms-high-contrast:active),(-ms-high-contrast:none) {
+	.cta .col {
+		flex-basis: 110px;
+	}
+}
+
+.sticky-header.fixed.header-middle .menu > li > a {
+	padding-top: 4rem;
+	padding-bottom: 3.1rem;
+	&:after {
+		top: 55%;
+	}
+}
+.header.header-8 {
+	.logo {
+		margin-top: 3.7rem;
+		margin-bottom: 3.1rem;
+	}
+
+	.menu > li > a {
+		padding-top: 4rem;
+		padding-bottom: 3.1rem;
+		&:after {
+			top: 55%;
+		}
+	}
+	.header-top {
+		background-color: #fff;
+		a {
+			color: #777;
+			text-transform: uppercase;
+			font-size: 1.3rem;
+			font-weight: 300;
+
+			&:hover,
+			&:focus {
+				color: $primary-color;
+			}
+		}
+	}
+	.header-middle {
+		.container::after,
+		.container-fluid::after {
+			content: '';
+			position: absolute;
+			left: 1rem;
+			right: 1rem;
+			top: 0;
+			height: .1rem;
+			background-color: #ebebeb;
+		}
+	}
+	.top-menu li + li {
+		margin-left: 2.5rem;
+	}
+	.header-search .header-search-wrapper {
+		top: 60%;
+		display: none;
+	}
+	.header-search .header-search-wrapper.show {
+		display: flex;
+	}
+	.header-dropdown+.header-dropdown {
+		margin-left: 3rem;
+	}
+
+	.cart-dropdown {
+		padding-top: .8rem;
+	}
+	.header-search,
+	.mobile-menu-toggler {
+		padding-top: 1.2rem;
+	}
+	.top-menu:not(.top-link-menu) ul {
+	    min-width: 180px;
+	}
+}
+
+.cart-dropdown {
+	.btn-primary {
+		color: white !important;
+		background-color: $primary-color!important;
+		border-color: $primary-color!important;
+
+		&:hover{
+			color: $primary-color!important;
+			background-color: white!important;
+		}
+	}
+	
+	.btn-outline-primary-2 {
+		color: $primary-color!important;
+		background-color: white!important;
+		border-color: $primary-color!important;
+
+		&:hover{
+			color: white!important;
+			background-color: $primary-color!important;
+		}
+	}
+}
+
+.product.product-5 .product-media:before {
+	padding-top: 95%;
+}
+
+.header-middle .container-fluid .header-right {
+	width: 100%;
+}
+
+.container-fluid .main-nav {
+	margin-right: auto !important;
+}
+
+@include mq('xl') {
+	.header-8 {
+		.main-nav {
+			margin-right: 35.5rem;
+		}
+	}
+}
+
+.footer {
+	.footer-middle {
+		padding-top: 5.5rem;
+	}
+	.footer-bottom .container {
+		padding-bottom: 2rem;
+	}
+}
+
+.footer-dark .footer-bottom .container-fluid:before {
+    background-color: #525455;
+}
+
+@include mq('lg', 'max') {
+    .header-middle .container-fluid .header-right {
+        justify-content: flex-end;
+    }
+}

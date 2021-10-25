@@ -1,0 +1,78 @@
+.filter-colors a:first-child {
+  margin-left: 0; }
+
+.action-icon-top .btn-product {
+  padding: 0; }
+
+.intro {
+  z-index: 2; }
+
+.footer {
+  background-color: #222;
+  font-size: 1.3rem;
+  letter-spacing: 0;
+  line-height: 2em; }
+  .footer .widget-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0; }
+
+.footer-middle {
+  border-top: none; }
+  .footer-middle .container,
+  .footer-middle .container-fluid {
+    position: relative;
+    display: block; }
+    .footer-middle .container::before,
+    .footer-middle .container-fluid::before {
+      content: '';
+      position: absolute;
+      top: -6.7rem;
+      left: 1rem;
+      right: 1rem;
+      height: .1rem;
+      background-color: #333; }
+
+.footer-middle .row > div:not(:first-child) {
+  padding-left: 6rem; }
+
+.footer-bottom .container::before {
+  left: 1rem;
+  right: 1rem;
+  background-color: #333; }
+
+.footer-copyright {
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #666; }
+
+.social-icons a:hover, .social-icons a:focus {
+  color: #fff; }
+
+.footer-bottom .container,
+.footer-bottom .container-fluid {
+  padding-bottom: 2.1rem; }
+
+.footer .widget-title {
+  text-transform: uppercase;
+  color: #fff; }
+
+.widget-about p {
+  max-width: 260px; }
+
+[class*=cols-]:not(.owl-loaded) {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: hidden; }
+
+.cols-2:not(.owl-loaded) > * {
+  flex: 0 0 50%;
+  max-width: 50%; }
+
+@media screen and (min-width: 768px) {
+  .cols-md-3:not(.owl-loaded) > * {
+    flex: 0 0 calc(100% / 3);
+    max-width: 0 0 calc(100% / 3); } }
+
+/*# sourceMappingURL=demo.css.map */

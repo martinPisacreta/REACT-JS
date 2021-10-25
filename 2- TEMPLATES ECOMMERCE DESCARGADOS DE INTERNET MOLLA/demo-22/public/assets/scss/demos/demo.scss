@@ -1,0 +1,39 @@
+@import '../config/variables';
+@import '../mixins/breakpoints';
+
+.container-fluid {
+    .header-search-wrapper.search-wrapper-wide {
+        margin: 0 auto;
+    }
+}
+
+.header-bottom .container-fluid .header-center {
+    justify-content: center;
+}
+
+.footer .container-fluid:before {
+    background-color: #444;
+}
+
+@include mq('xxl') {
+    .header .container-fluid .megamenu-container .megamenu {
+        transform: translateX(-30%) !important;
+    }
+}
+
+@include mq('xl', 'max') {
+    .megamenu.megamenu-md {
+        transform: translateX(-30%);
+    }
+
+    .container-fluid {
+        .menu.sf-arrows .sf-with-ul::after,
+        .category-dropdown .dropdown-toggle:after {
+            display: none;
+        }
+
+        .menu>li>.sf-with-ul {
+            padding-right: 2rem !important;
+        }
+    }
+}

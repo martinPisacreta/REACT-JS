@@ -1,0 +1,322 @@
+{
+    "team_members": [
+        {
+            "img": "assets/images/team/about-2/member-1.jpg",
+            "name": "Samanta Grey",
+            "title": "Founder & CEO"
+        },
+        {
+            "img": "assets/images/team/about-2/member-2.jpg",
+            "name": "Bruce Sutton",
+            "title": "Sales & Marketing Manager"
+        },
+        {
+            "img": "assets/images/team/about-2/member-3.jpg",
+            "name": "Jat Joy",
+            "title": "Product Manager"
+        },
+        {
+            "img": "assets/images/team/about-2/member-4.jpg",
+            "name": "Mark Pocket",
+            "title": "Product Manager"
+        },
+        {
+            "img": "assets/images/team/about-2/member-5.jpg",
+            "name": "Damion Blue",
+            "title": "Sales & Marketing Manager"
+        },
+        {
+            "img": "assets/images/team/about-2/member-6.jpg",
+            "name": "Lenard Smith",
+            "title": "Product Manager"
+        },
+        {
+            "img": "assets/images/team/about-2/member-7.jpg",
+            "name": "Rachel Green",
+            "title": "Product Manager"
+        },
+        {
+            "img": "assets/images/team/about-2/member-8.jpg",
+            "name": "David Doe",
+            "title": "Product Manager"
+        }
+    ],
+    "brands": {
+        "default": [
+            {
+                "name": "brand",
+                "image": "assets/images/brands/1.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/2.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/3.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/4.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/5.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/6.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/7.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/8.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/9.png"
+            }
+        ]
+    },
+    "shop_categories": [
+        {
+            "id": 1,
+            "name": "Furniture"
+        },
+        {
+            "id": 2,
+            "name": "Coffee & Tables"
+        },
+        {
+            "id": 3,
+            "name": "Lighting"
+        },
+        {
+            "id": 4,
+            "name": "Decoration"
+        },
+        {
+            "id": 5,
+            "name": "Electronics"
+        },
+        {
+            "id": 6,
+            "name": "Beds"
+        },
+        {
+            "id": 7,
+            "name": "Armchairs & Chaises"
+        },
+        {
+            "id": 8,
+            "name": "Sofas & Sleeper Sofas"
+        }
+    ],
+    "elementsUrl": [
+        {
+            "url": "/elements/accordions",
+            "name": "accordions",
+            "class": "img-accordions"
+        },
+        {
+            "url": "/elements/banners",
+            "name": "banners",
+            "class": "img-banners"
+        },
+        {
+            "url": "/elements/blog-posts",
+            "name": "blog posts",
+            "class": "img-blog-posts"
+        },
+        {
+            "url": "/elements/buttons",
+            "name": "buttons",
+            "class": "img-buttons"
+        },
+        {
+            "url": "/elements/cta",
+            "name": "call to action",
+            "class": "img-cta"
+        },
+        {
+            "url": "/elements/icon-boxes",
+            "name": "icon boxes",
+            "class": "img-icon-boxes"
+        },
+        {
+            "url": "/elements/portfolios",
+            "name": "portfolio",
+            "class": "img-portfolio"
+        },
+        {
+            "url": "/elements/categories",
+            "name": "product catigories",
+            "class": "img-product-categories"
+        },
+        {
+            "url": "/elements/products",
+            "name": "products",
+            "class": "img-products"
+        },
+        {
+            "url": "/elements/tabs",
+            "name": "tabs",
+            "class": "img-tabs"
+        },
+        {
+            "url": "/elements/testimonials",
+            "name": "testimonials",
+            "class": "img-testimonials"
+        },
+        {
+            "url": "/elements/titles",
+            "name": "titles",
+            "class": "img-titles"
+        },
+        {
+            "url": "/elements/typography",
+            "name": "typography",
+            "class": "img-typography"
+        },
+        {
+            "url": "/elements/video-banners",
+            "name": "video",
+            "class": "img-video"
+        }
+    ],
+    "services": [
+        {
+            "id": 1,
+            "icon": "icon-rocket",
+            "title": "Payment & Delivery",
+            "subtitle": "Free shipping for orders over %50"
+        },
+        {
+            "id": 2,
+            "icon": "icon-rotate-left",
+            "title": "Return & Refund",
+            "subtitle": "Free 100% money back guarantee"
+        },
+        {
+            "id": 3,
+            "icon": "icon-life-ring",
+            "title": "Quality Support",
+            "subtitle": "Alway online feedback 24/7"
+        }
+    ],
+    "innerOverlayPaths": [
+        "shop/sidebar",
+        "product/default",
+        "product/centered",
+        "product/extended",
+        "product/gallery",
+        "product/sticky",
+        "product/sidebar",
+        "product/fullwidth",
+        "product/masonry"
+    ],
+    "introBanners": [
+        {
+            "image": "assets/images/home/sliders/slide-1.jpg",
+            "subtitle": "Don’t Miss",
+            "title": "Mystery Deals",
+            "text": "Online Only",
+            "btnText": "Discover Now"
+        },
+        {
+            "image": "assets/images/home/sliders/slide-2.jpg",
+            "subtitle": "Limited time only",
+            "title": "Treat your self",
+            "text": "Up to 50% off",
+            "btnText": "Shop Now"
+        }
+    ],
+    "banners": [
+        {
+            "img": "assets/images/home/banners/banner-1.jpg",
+            "height": "630",
+            "subtitle": "Trending now",
+            "title": "This Week's<br />Most Wanted",
+            "btnText": "Discover Now",
+            "adClass": "banner-border"
+        },
+        {
+            "img": "assets/images/home/banners/banner-2.jpg",
+            "height": "305",
+            "subtitle": "Limited time only.",
+            "title": "Trainers & Sportwear<br />Sale Up to 70% off",
+            "btnText": "Shop Now",
+            "adClass": "banner-border-hover"
+        },
+        {
+            "img": "assets/images/home/banners/banner-3.jpg",
+            "height": "305",
+            "subtitle": "This week we love...",
+            "title": "Womens <br />Holiday Clothes",
+            "btnText": "Discover Now",
+            "adClass": "banner-border-hover"
+        }
+    ],
+    "instagram": [
+        {
+            "img": "assets/images/home/instagrams/1.jpg",
+            "likes": 387,
+            "comments": 45
+        },
+        {
+            "img": "assets/images/home/instagrams/2.jpg",
+            "likes": 691,
+            "comments": 87
+        },
+        {
+            "img": "assets/images/home/instagrams/3.jpg",
+            "likes": 321,
+            "comments": 54
+        },
+        {
+            "img": "assets/images/home/instagrams/4.jpg",
+            "likes": 44,
+            "comments": 55
+        },
+        {
+            "img": "assets/images/home/instagrams/5.jpg",
+            "likes": 128,
+            "comments": 99
+        },
+        {
+            "img": "assets/images/home/instagrams/6.jpg",
+            "likes": 433,
+            "comments": 25
+        },
+        {
+            "img": "assets/images/home/instagrams/7.jpg",
+            "likes": 588,
+            "comments": 44
+        },
+        {
+            "img": "assets/images/home/instagrams/8.jpg",
+            "likes": 87,
+            "comments": 23
+        },
+        {
+            "img": "assets/images/home/instagrams/9.jpg",
+            "likes": 87,
+            "comments": 23
+        }
+    ],
+    "arrivalCategories": [
+        "All",
+        "Clothing",
+        "Shoes & Boots",
+        "Accessories"
+    ],
+    "trendyCategories": [
+        "All",
+        "Women",
+        "Men",
+        "Accessories"
+    ]
+}

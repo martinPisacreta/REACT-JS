@@ -1,0 +1,43 @@
+.toast-container {
+    width: 250px !important ;
+
+    .Toastify__toast--success {
+        background-color: $primary-color;
+        border-radius: .5rem;
+    }
+
+    .Toastify__toast--error {
+        background-color: $primary-color;
+        border-radius: .5rem;
+    }
+
+    .Toastify__toast-body{
+        padding-left: 2rem;
+    }
+
+    .Toastify__close-button{
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 12px;
+    }
+
+    .Toastify__toast{
+        min-height: 55px;
+        padding-right: 25px;
+    }
+
+    .Toastify__toast-body{
+        margin-top: 8px;
+    }
+
+    .Toastify__progress-bar {
+        opacity: 0 !important;
+    }
+}
+
+@include mq('480px', 'max') {
+    .Toastify__toast-container {
+        left: auto !important;
+        right: 0px !important;
+    }
+}

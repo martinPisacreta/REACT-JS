@@ -1,0 +1,11 @@
+/* Skin demo 2 - index-2.html */
+$primary-color: #a6c76c;
+$secondary-color: #92b25a;
+$link-color: #a6c76c;
+
+
+.product-media a {
+	line-height: 0;
+}
+
+@import 'skin';

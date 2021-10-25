@@ -1,0 +1,45 @@
+.footer {
+	.footer-middle {
+		border-top: none;
+		padding-bottom: 3rem;
+	}
+
+	.widget-title {
+		font-weight: 600;
+	}
+}
+
+.footer-bottom {
+	.container {
+		padding-top: 1.75rem;
+		padding-bottom: 1.75rem;
+	}
+}
+
+.home-page {
+    .intro-section {
+        @include mq('xl') {
+            .col-lg-4 {
+                -ms-flex: 0 0 32.77%;
+                flex: 0 0 32.77%;
+                max-width: 32.77%;
+            }
+    
+            .col-lg-8 {
+                -ms-flex: 0 0 67.23%;
+                flex: 0 0 67.23%;
+                max-width: 67.23%;
+            }
+        }
+    }
+}
+
+.mobile-menu-wrapper .nav.nav-pills-mobile .nav-link {
+    &::before {
+        content: none;
+    }
+}
+
+.mobile-menu-wrapper .nav-item.show .nav-link {
+    color: $primary-color !important;
+}

@@ -1,0 +1,92 @@
+@media (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .cta .col {
+    flex-basis: 110px; } }
+.sticky-header.fixed.header-middle .menu > li > a {
+  padding-top: 4rem;
+  padding-bottom: 3.1rem; }
+  .sticky-header.fixed.header-middle .menu > li > a:after {
+    top: 55%; }
+
+.header.header-8 .logo {
+  margin-top: 3.7rem;
+  margin-bottom: 3.1rem; }
+.header.header-8 .menu > li > a {
+  padding-top: 4rem;
+  padding-bottom: 3.1rem; }
+  .header.header-8 .menu > li > a:after {
+    top: 55%; }
+.header.header-8 .header-top {
+  background-color: #fff; }
+  .header.header-8 .header-top a {
+    color: #777;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 300; }
+    .header.header-8 .header-top a:hover, .header.header-8 .header-top a:focus {
+      color: #1cc0a0; }
+.header.header-8 .header-middle .container::after,
+.header.header-8 .header-middle .container-fluid::after {
+  content: '';
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  top: 0;
+  height: .1rem;
+  background-color: #ebebeb; }
+.header.header-8 .top-menu li + li {
+  margin-left: 2.5rem; }
+.header.header-8 .header-search .header-search-wrapper {
+  top: 60%;
+  display: none; }
+.header.header-8 .header-search .header-search-wrapper.show {
+  display: flex; }
+.header.header-8 .header-dropdown + .header-dropdown {
+  margin-left: 3rem; }
+.header.header-8 .cart-dropdown {
+  padding-top: .8rem; }
+.header.header-8 .header-search,
+.header.header-8 .mobile-menu-toggler {
+  padding-top: 1.2rem; }
+.header.header-8 .top-menu:not(.top-link-menu) ul {
+  min-width: 180px; }
+
+.cart-dropdown .btn-primary {
+  color: white !important;
+  background-color: #1cc0a0 !important;
+  border-color: #1cc0a0 !important; }
+  .cart-dropdown .btn-primary:hover {
+    color: #1cc0a0 !important;
+    background-color: white !important; }
+.cart-dropdown .btn-outline-primary-2 {
+  color: #1cc0a0 !important;
+  background-color: white !important;
+  border-color: #1cc0a0 !important; }
+  .cart-dropdown .btn-outline-primary-2:hover {
+    color: white !important;
+    background-color: #1cc0a0 !important; }
+
+.product.product-5 .product-media:before {
+  padding-top: 95%; }
+
+.header-middle .container-fluid .header-right {
+  width: 100%; }
+
+.container-fluid .main-nav {
+  margin-right: auto !important; }
+
+@media screen and (min-width: 1200px) {
+  .header-8 .main-nav {
+    margin-right: 35.5rem; } }
+.footer .footer-middle {
+  padding-top: 5.5rem; }
+.footer .footer-bottom .container {
+  padding-bottom: 2rem; }
+
+.footer-dark .footer-bottom .container-fluid:before {
+  background-color: #525455; }
+
+@media screen and (max-width: 991px) {
+  .header-middle .container-fluid .header-right {
+    justify-content: flex-end; } }
+
+/*# sourceMappingURL=demo.css.map */

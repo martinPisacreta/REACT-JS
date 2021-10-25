@@ -1,0 +1,126 @@
+@import '../config/variables';
+
+.header.header-6 {
+	.header-top {
+		background-color: #fafafa;
+		.container::after,
+		.container-fluid::after {
+			height: 0;
+		}
+	}
+	.header-middle {
+		.container::after,
+		.container-fluid::after {
+			content: '';
+			position: absolute;
+			left: 1rem;
+			right: 1rem;
+			bottom: 0;
+			height: .1rem;
+			background-color: #ebebeb;
+		}
+	}
+	.header-bottom {
+		background-color: #fff;
+		.menu > li:hover,
+		.menu > li:focus,
+		.menu > li.active {
+			> a {
+				color: $primary-color;
+			}
+		}
+		.menu > li > a {
+			color: #333;
+			letter-spacing: .01em;
+			&::before {
+				height: .2rem;
+				bottom: 0;
+			}
+		}
+		.menu > li + li {
+			margin-left: .8rem;
+		}
+
+		.header-right {
+			padding-right: 1rem;
+			p {
+				color: #222;
+				letter-spacing: .01em;
+			}
+			i {
+				color: #222;
+			}
+		}
+	}
+	.wishlist-link,
+	.cart-dropdown {
+		&:hover,
+		&:focus {
+			.wishlist-txt,
+			.cart-txt {
+				color: $primary-color;
+			}
+		}
+	}
+}
+
+.cart-dropdown {
+	.btn-primary {
+		color: white !important;
+		background-color: $primary-color!important;
+		border-color: $primary-color!important;
+
+		&:hover{
+			color: $primary-color!important;
+			background-color: white!important;
+		}
+	}
+	
+	.btn-outline-primary-2 {
+		color: $primary-color!important;
+		background-color: white!important;
+		border-color: $primary-color!important;
+
+		&:hover{
+			color: white!important;
+			background-color: $primary-color!important;
+		}
+	}
+}
+
+.footer {
+	background-color: #222;
+	.footer-logo {
+		margin-top: 0;
+	}
+	.footer-middle {
+		border-top: none;
+		padding-top: 6rem;
+	}
+	.widget-about-title {
+		color: #fff;
+	}
+	.widget-about-info a {
+		color: $primary-color;
+	}
+	.widget-title {
+		letter-spacing: .01em;
+		color: #fff;
+	}
+}
+
+.footer-bottom .container:before,
+.footer-bottom .container-fluid:before {
+	background-color: #444;
+}
+
+@media screen and (max-width: 359px) {
+	.btn-cart.btn-product,
+	.btn-product.btn-quickview {
+        width: 50%;
+
+		span {
+            display: none;
+        }
+	}
+}

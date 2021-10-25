@@ -1,0 +1,110 @@
+.footer {
+	.widget-about {
+		p {
+			max-width: 540px;
+		}
+	}
+	.widget-about-info {
+		a {
+			color: $primary-color;
+		}
+	}
+	.widget-newsletter form {
+		padding-top: 2.3rem;
+		.form-control::placeholder {
+			color: #ccc;
+		}
+    }
+    
+    .footer-bottom .container,
+    .footer-bottom .container-fluid {
+        &::before {
+            left: 1rem;
+            right: 1rem;
+        }
+        padding-bottom: 2.1rem;
+    }
+}
+
+.intro-slider-container,
+.intro-slider .slide-image {
+	&:before {
+		@include aspect-ratio(1180, 500);
+	}
+	
+	&:before {
+		@include mq('xl', 'max') {
+			padding-top:40rem;
+		}
+	}
+
+	img {
+		min-height: 40rem;
+		object-fit: cover;
+	}
+}
+
+.container-fluid {
+	width: 1800px;
+	max-width: 100%;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.trending-products {
+	padding: 4.5rem 5rem 5rem;
+}
+
+@include mq( "xl" ) {
+	.owl-simple.brands-carousel {
+		margin-left: 6rem;
+		margin-right: 6rem;
+		width: calc( 100% - 12rem);
+	}
+}
+
+.header-middle .row >div:first-child {
+	display: flex;
+	align-items: center;
+}
+
+.menu .megamenu.demo {
+	width: 60vw;
+}
+
+.header-14 .header-bottom .container .header-right {
+	padding-right: 1rem;
+}
+
+@include mq ("xxl") {
+	.container {
+		width: 1420px;
+		max-width: 1420px;
+	}
+}
+
+.header, .footer {
+	.container {
+		width: 1800px;
+		max-width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+
+.container-fluid {
+	width: 1800px;
+	max-width: 100%;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.mobile-menu-wrapper .nav.nav-pills-mobile .nav-link {
+    &::before {
+        content: none;
+    }
+}
+
+.mobile-menu-wrapper .nav-item.show .nav-link {
+    color: $primary-color !important;
+}

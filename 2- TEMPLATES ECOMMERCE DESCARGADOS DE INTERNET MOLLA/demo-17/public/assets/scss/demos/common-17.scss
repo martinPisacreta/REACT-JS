@@ -1,0 +1,130 @@
+
+.header.header-6 {
+	.header-top {
+		background-color: #fafafa;
+		.container::after,
+		.container-fluid::after {
+			height: 0;
+		}
+	}
+	.header-middle .container,
+	.header-middle .container-fluid {
+		position: relative;
+		&::after {
+			content: '';
+			position: absolute;
+			left: 1rem;
+			right: 1rem;
+			height: .1rem;
+			bottom: 0;
+			background-color: #ebebeb;
+		}
+	}
+	.header-bottom {
+		background-color: #fff;
+		.menu > li {
+			> a {
+				color: #222;
+				letter-spacing: .01em;
+				padding-top: 1.5rem;
+				padding-bottom: 1.5rem;
+
+				&::before {
+					bottom: 0;
+					height: .2rem;
+				}
+			}
+
+			&:hover > a,
+			&:focus > a,
+			&.active > a {
+				color: $primary-color;
+			}
+			+ li {
+				margin-left: .8rem;
+			}
+		}
+		.header-right {
+			p, i {
+				color: #222;
+				letter-spacing: .01em;
+			}
+			padding-right: 1rem;
+		}
+	}
+}
+
+
+.header-6 {
+	.header-middle,
+	.header-menu {
+		font-size: 1.4rem;
+	}
+	
+	.search-toggle:not(:hover):not(.active),
+	.wishlist-link:not(:hover):not(:focus),
+	.cart-dropdown:not(.show):not(:hover) .dropdown-toggle, 
+	.compare-dropdown:not(.show):not(:hover) .dropdown-toggle {
+		color: #333;
+	}
+
+	.cart-dropdown,
+	.wishlist-link {
+	&:hover,
+		&:focus {
+			.cart-txt {
+			 	color: $primary-color;
+			}
+			.wishlist-txt {
+			 	color: $primary-color;
+			}
+		}
+	}
+}
+
+.cart-dropdown {
+	.btn-primary {
+		color: white !important;
+		background-color: $primary-color!important;
+		border-color: $primary-color!important;
+
+		&:hover{
+			color: $primary-color!important;
+			background-color: white!important;
+		}
+	}
+	
+	.btn-outline-primary-2 {
+		color: $primary-color!important;
+		background-color: white!important;
+		border-color: $primary-color!important;
+
+		&:hover{
+			color: white!important;
+			background-color: $primary-color!important;
+		}
+	}
+}
+
+.footer-bottom .container, 
+.footer-bottom .container-fluid {
+	padding-top: 2.9rem;
+}
+
+.container-fluid {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.footer-2 {
+	.footer-bottom .container, .footer-bottom .container-fluid {
+		padding-bottom: 2.9rem;
+		padding-top: 2.9rem;
+	}
+}
+
+@include mq( "lg", "max" ) {
+	.top-menu.top-link-menu ul {
+		min-width: 1px;
+	}
+}

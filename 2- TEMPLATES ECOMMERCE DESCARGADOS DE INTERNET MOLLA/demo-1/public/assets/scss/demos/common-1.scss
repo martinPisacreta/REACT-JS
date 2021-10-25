@@ -1,0 +1,9 @@
+.mobile-menu-wrapper .nav.nav-pills-mobile .nav-link {
+    &::before {
+        content: none;
+    }
+}
+
+.mobile-menu-wrapper .nav-item.show .nav-link {
+    color: $primary-color !important;
+}

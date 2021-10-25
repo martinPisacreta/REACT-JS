@@ -1,0 +1,307 @@
+{
+    "team_members": [
+        {
+            "img": "assets/images/team/about-2/member-1.jpg",
+            "name": "Samanta Grey",
+            "title": "Founder & CEO"
+        },
+        {
+            "img": "assets/images/team/about-2/member-2.jpg",
+            "name": "Bruce Sutton",
+            "title": "Sales & Marketing Manager"
+        },
+        {
+            "img": "assets/images/team/about-2/member-3.jpg",
+            "name": "Jat Joy",
+            "title": "Product Manager"
+        },
+        {
+            "img": "assets/images/team/about-2/member-4.jpg",
+            "name": "Mark Pocket",
+            "title": "Product Manager"
+        },
+        {
+            "img": "assets/images/team/about-2/member-5.jpg",
+            "name": "Damion Blue",
+            "title": "Sales & Marketing Manager"
+        },
+        {
+            "img": "assets/images/team/about-2/member-6.jpg",
+            "name": "Lenard Smith",
+            "title": "Product Manager"
+        },
+        {
+            "img": "assets/images/team/about-2/member-7.jpg",
+            "name": "Rachel Green",
+            "title": "Product Manager"
+        },
+        {
+            "img": "assets/images/team/about-2/member-8.jpg",
+            "name": "David Doe",
+            "title": "Product Manager"
+        }
+    ],
+    "brands": {
+        "default": [
+            {
+                "name": "brand",
+                "image": "assets/images/brands/1.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/2.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/3.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/4.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/5.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/6.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/7.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/8.png"
+            },
+            {
+                "name": "brand",
+                "image": "assets/images/brands/9.png"
+            }
+        ]
+    },
+    "shop_categories": [
+        {
+            "id": 1,
+            "name": "Furniture"
+        },
+        {
+            "id": 2,
+            "name": "Coffee & Tables"
+        },
+        {
+            "id": 3,
+            "name": "Lighting"
+        },
+        {
+            "id": 4,
+            "name": "Decoration"
+        },
+        {
+            "id": 5,
+            "name": "Electronics"
+        },
+        {
+            "id": 6,
+            "name": "Beds"
+        },
+        {
+            "id": 7,
+            "name": "Armchairs & Chaises"
+        },
+        {
+            "id": 8,
+            "name": "Sofas & Sleeper Sofas"
+        }
+    ],
+    "elementsUrl": [
+        {
+            "url": "/elements/accordions",
+            "name": "accordions",
+            "class": "img-accordions"
+        },
+        {
+            "url": "/elements/banners",
+            "name": "banners",
+            "class": "img-banners"
+        },
+        {
+            "url": "/elements/blog-posts",
+            "name": "blog posts",
+            "class": "img-blog-posts"
+        },
+        {
+            "url": "/elements/buttons",
+            "name": "buttons",
+            "class": "img-buttons"
+        },
+        {
+            "url": "/elements/cta",
+            "name": "call to action",
+            "class": "img-cta"
+        },
+        {
+            "url": "/elements/icon-boxes",
+            "name": "icon boxes",
+            "class": "img-icon-boxes"
+        },
+        {
+            "url": "/elements/portfolios",
+            "name": "portfolio",
+            "class": "img-portfolio"
+        },
+        {
+            "url": "/elements/categories",
+            "name": "product catigories",
+            "class": "img-product-categories"
+        },
+        {
+            "url": "/elements/products",
+            "name": "products",
+            "class": "img-products"
+        },
+        {
+            "url": "/elements/tabs",
+            "name": "tabs",
+            "class": "img-tabs"
+        },
+        {
+            "url": "/elements/testimonials",
+            "name": "testimonials",
+            "class": "img-testimonials"
+        },
+        {
+            "url": "/elements/titles",
+            "name": "titles",
+            "class": "img-titles"
+        },
+        {
+            "url": "/elements/typography",
+            "name": "typography",
+            "class": "img-typography"
+        },
+        {
+            "url": "/elements/video-banners",
+            "name": "video",
+            "class": "img-video"
+        }
+    ],
+    "services": [
+        {
+            "id": 8,
+            "icon": "icon-truck",
+            "title": "Payment & Delivery",
+            "subtitle": "Free shipping for orders over $50"
+        },
+        {
+            "id": 9,
+            "icon": "icon-rotate-left",
+            "title": "Return & Refund",
+            "subtitle": "Free 100% money back guarantee"
+        },
+        {
+            "id": 10,
+            "icon": "icon-headphones",
+            "title": "Quality Support",
+            "subtitle": "Alway online feedback 24/7"
+        }
+    ],
+    "innerOverlayPaths": [
+        "shop/sidebar",
+        "product/default",
+        "product/centered",
+        "product/extended",
+        "product/gallery",
+        "product/sticky",
+        "product/sidebar",
+        "product/fullwidth",
+        "product/masonry"
+    ],
+    "banners": [
+        {
+            "img": "assets/images/home/banners/banner-1.jpg",
+            "width": 880,
+            "height": 500,
+            "subtitle": "New Collection",
+            "title": "Shop Women's",
+            "btnText": "<span>Discover Now</span>",
+            "adClass": "banner-big banner-overlay",
+            "contentAdClass": "banner-content-center"
+        },
+        {
+            "img": "assets/images/home/banners/banner-2.jpg",
+            "width": 880,
+            "height": 500,
+            "subtitle": "New Collection",
+            "title": "Shop Men's",
+            "btnText": "<span>Discover Now</span>",
+            "adClass": "banner-big banner-overlay",
+            "contentAdClass": "banner-content-center"
+        },
+        {
+            "img": "assets/images/home/banners/banner-3.jpg",
+            "width": 580,
+            "height": 300,
+            "subtitle": "Flip Flop",
+            "title": "Summer<br />sale -70% off",
+            "btnText": "Shop Now",
+            "adClass": "banner-overlay text-white",
+            "contentAdClass": "banner-content-right",
+            "btnAdClass": "btn-outline-white-3 banner-link"
+        },
+        {
+            "img": "assets/images/home/banners/banner-4.jpg",
+            "width": 580,
+            "height": 300,
+            "subtitle": "Accessories",
+            "title": "2020 Winter<br />up to 50% off",
+            "btnText": "Shop Now",
+            "adClass": "banner-overlay color-grey",
+            "contentAdClass": "",
+            "btnAdClass": "banner-link",
+            "textColor": ""
+        },
+        {
+            "img": "assets/images/home/banners/banner-5.jpg",
+            "width": 580,
+            "height": 300,
+            "subtitle": "New in",
+            "title": "Women’s<br />sportswear",
+            "btnText": "Shop Now",
+            "adClass": "banner-overlay text-white",
+            "contentAdClass": "banner-content-right",
+            "btnAdClass": "btn-outline-white-3 banner-link"
+        }
+    ],
+    "home_categories": [
+        {
+            "key": "Women",
+            "value": "Women's Clothing"
+        },
+        {
+            "key": "Men",
+            "value": "Men's Clothing"
+        }
+    ],
+    "testimonials": [
+        {
+            "lead": "“Really great store”",
+            "content": "“ Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra<br>a, ultricies in, diam. Sed arcu. ”",
+            "name": "Charly Smith",
+            "job": "Customer"
+        },
+        {
+            "lead": "“Friendly Support”",
+            "content": "“ Impedit, ratione sequi, sunt incidunt magnam et. Delectus obcaecati optio eius error libero perferendis nesciunt atque dolores magni recusandae! Doloremque quidem error eum quis similique doloribus natus qui ut ipsum.”",
+            "name": "Damon Stone",
+            "job": "Customer"
+        },
+        {
+            "lead": "“Free Shipping”",
+            "content": "“ Molestias animi illo natus ut quod neque ad accusamus praesentium fuga! Dolores odio alias sapiente odit delectus quasi, explicabo a, modi voluptatibus. Perferendis perspiciatis, voluptate, distinctio earum veritatis animi tempora eget blandit nunc tortor mollis ”",
+            "name": "John Smith",
+            "job": "Customer"
+        }
+    ]
+}
