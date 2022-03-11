@@ -1,0 +1,205 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    width: 50%;
+    margin: 50px auto;
+    font-family: "Cabin", sans-serif;
+  }
+  /* En la clase Days se hace el estilo para el div donde sale los dias de la semana*/
+  .Days {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: bolder;
+    background-color: #633ed5;
+    color: white
+  }
+  /* En la clase days div es para aplicarle los estilos a los div de adentro*/
+  .Days div {
+    border: 1px solid gray;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+  }
+  /* En la clase Months se hace el estilo para el div donde sale el mes.*/
+  .Months {
+    background-color: #e8d8ff;
+    height: 50px;
+    display: flex;
+    width: 100%;
+    border: 1px solid rgb(91, 165, 165);
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    font-weight: bolder;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  /* En la clase DaysMonths se hace el estilo del div donde salen los días de la semana.*/
+  .DaysMonths {
+    display: flex;
+    width: 100%;
+    text-align: center;
+  }
+  /* En la clase DaysMonths div se hace el estilo para los div que van adentro del div principal de los dias del mes.*/
+  .DaysMonths div {
+    border: 1px solid gray;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    font-family: "Homer Simpson", cursive;
+    
+  }
+ 
+  .DaysMonths span {
+    color: green;
+    
+  }
+
+  .Week {
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    
+  }
+
+
+
+
+  .Weekend {
+    color: blue;
+    background-color: #d4d4d4;
+    cursor: pointer;
+
+  }
+  
+  .Hoy {
+    color: red;
+    cursor: pointer;
+    background-color: white;
+    
+  }
+  
+  @media screen and (max-width: 768px) {
+    .App {
+      width: 100%;
+    }
+  }
+  .roudBorder {
+    border: 10px solid rgb(19, 197, 221);
+    border-radius: 20px;
+  }
+  
+  
+  /* components modal */
+  .form-control.is-invalid,.was-validated .form-control:invalid {
+    padding-right:calc(1.5em+.75rem);
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23dc3545' viewBox='-2-277'%3e%3cpath stroke='%23dc3545' d='M00l33m0-3L03'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E");
+    background-repeat:no-repeat;
+    background-position:center right calc(.375em+.1875rem);
+    background-size:calc(.75em+.375rem) calc(.75em+.375rem);
+    border-color:#dc3545;
+    }
+
+  .invalid-feedback {
+      display:none;
+      width:100%;
+      margin-top:.25rem;
+      font-size:80%;
+      color:#dc3545;
+  }
+
+  .form-control.is-invalid~.invalid-feedback,
+  .was-validated .form-control:invalid~.invalid-feedback,
+  .custom-select.is-invalid~.invalid-feedback,
+  .was-validated .custom-select:invalid~.invalid-feedback,
+  .form-control-file.is-invalid~.invalid-feedback,
+  .was-validated .form-control-file:invalid~.invalid-feedback,
+  .form-check-input.is-invalid~.invalid-feedback,
+  .was-validated .form-check-input:invalid~.invalid-feedback,
+  .custom-control-input.is-invalid~.invalid-feedback,
+  .was-validated .custom-control-input:invalid~.invalid-feedback,
+  .custom-file-input.is-invalid~.invalid-feedback,
+  .was-validated .custom-file-input:invalid~.invalid-feedback {
+      display:block;
+  }
+
+
+
+  .form-control {
+      display:block;
+      width:100%;
+      height:calc(1.5em+.75rem+2px);
+      font-size:1rem;
+      font-weight:400;
+      line-height:1.5;
+      color:#495057;
+      background-color:#fff;
+      background-clip:padding-box;
+      border:1px solid #ced4da;
+      border-radius:.25rem;
+      transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+      padding:.375rem .75rem;
+  }
+
+  .form-group {
+      margin-bottom:1rem;
+  }
+
+  .inline {
+      display: inline-flex
+  }
+
+  .form-inline .form-group {
+      display:flex;
+      -ms-flex:0 0 auto;
+      flex:0 0 auto;
+      -ms-flex-flow:row wrap;
+      flex-flow:row wrap;
+      -ms-flex-align:center;
+      align-items:center;
+      margin-bottom:0;
+  }
+
+  .weather-label-good {
+      color: green;
+      font-size:80%;
+  }
+
+  .weather-label-bad {
+      color: red;
+      font-size:80%;
+  }
+
+  #customers-table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers-table td, #customers-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers-table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers-table tr:hover {background-color: #ddd;}
+  
+  #customers-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+    width: 300px;
+  }
+
+  h1 {
+    text-align: center;
+    text-decoration-line: underline;
+  }
